@@ -39,4 +39,48 @@
       ],
         "isVar" : "true"
     },
+
+    // ANCHOR HEADINGS WITH VARIABLES
+    "heading": {
+        "label": "Heading",
+        "type": "choose",
+        "initial": "H2",
+        "options": [
+          {
+            "value": {
+              "font": "3.125em",
+              "level": "h1",
+              "marginBottom" : "1em"
+            },
+            "label": "H1"
+          },
+          {
+            "value": {
+              "font": "3em",
+              "level": "h2"
+            },
+            "label": "H2"
+          },
+          {
+            "value": {
+              "font": "1.875em",
+              "level": "h3"
+            },
+            "label": "H3"
+          },
+          {
+            "value": {
+              "font": "1.61em",
+              "level": "h4"
+            },
+            "label": "H4"
+          }
+        ]
+      },
+
+      // ANCHOR COLOR
+      "color" : {
+        "type" : "color",
+          "initial" : "global-color:fIRcHx7VYL6DgEVFJW" // Get the global color ID from dev tools > tools > colors IF you want to use variable colors
+      },
 }
