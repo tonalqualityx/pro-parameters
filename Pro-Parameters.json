@@ -1,0 +1,42 @@
+{
+    // ANCHOR MARGIN
+    "margin" : {
+        "type" : "group",
+        "params" : {
+        "top" : {
+            "type" : "margin",
+            "slider" : false,
+            "initial" : "1em",
+            "isVar" : true
+        },
+        "bottom" : {
+            "type" : "margin",
+            "slider" : false,
+            "initial" : "1em",
+            "isVar" : true
+        },
+        "left" : {
+            "type" : "margin",
+            "slider" : false,
+            "initial" : "none",
+            "isVar" : true
+        },
+        "right" : {
+            "type" : "margin",
+            "slider" : false,
+            "initial" : "none",
+            "isVar" : true
+        }
+    },
+
+    // ANCHOR ALIGNMENT
+    "alignment" : {
+        "type" : "choose",
+      "options" : [
+        { "value" : "left", "icon" : "ui:text-align-left"},
+        { "value" : "center", "icon" : "ui:text-align-center"},
+        { "value" : "right", "icon" : "ui:text-align-right"}
+      ],
+        "isVar" : "true"
+    },
+}
