@@ -40,7 +40,7 @@
         "isVar" : "true"
     },
 
-    // ANCHOR HEADINGS WITH VARIABLES
+    // ANCHOR HEADINGS WITH VARIABLES - use like {{dc:p:heading.font}} and {{dc:p:heading.level}}
     "heading": {
         "label": "Heading",
         "type": "choose",
